@@ -56,7 +56,7 @@ post{
         failure{
             script{
                 emailext from: 'arun.tsc@gmail.com',
-                to: 'mentor@trainwithshubham.com',
+                to: 'arun.tsc@gmail.com',
                 body: 'Build Failed for Demo CICD App',
                 subject: 'Build Failed for Demo CICD App'
             }
