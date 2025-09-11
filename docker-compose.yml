@@ -23,7 +23,7 @@ services:
       start_period: 60s
 
   flask-app:
-    image: arntsc/two-tier-flask-app:latest
+    image: aruntsc/two-tier-flask-app:latest
     container_name: flask-app
     ports:
       - "5000:5000"
